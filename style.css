@@ -39,6 +39,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 1.5rem 1.5rem rgba(0, 0, 0);
 }
 
 /* CARD HEADER */
@@ -80,6 +85,11 @@ body {
 .heading-primary {
   font-weight: 800;
   font-size: 2.4rem;
+}
+
+.heading-primary:hover {
+  cursor: pointer;
+  color: var(--main-color);
 }
 
 .card-description {
